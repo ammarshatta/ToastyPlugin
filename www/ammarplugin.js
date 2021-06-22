@@ -11,7 +11,7 @@ AmmarPlugin.prototype.show = function(message, duration, successCallback, errorC
 }
 
 // Installation constructor that binds ToastyPlugin to window
-ToastyPlugin.install = function() {
+AmmarPlugin.install = function() {
   if (!window.plugins) {
     window.plugins = {};
   }
